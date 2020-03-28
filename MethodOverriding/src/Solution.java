@@ -17,6 +17,11 @@ class Soccer extends Sports{
 
     // Write your overridden getNumberOfTeamMembers method here
 
+
+    @Override
+    void getNumberOfTeamMembers() {
+        System.out.println( "Each team has n players in " + getName() );
+    }
 }
 
 public class Solution{
